@@ -1,0 +1,595 @@
+[
+  {
+    "nome": "Amarela",
+    "cor": "#FFEB3B",
+    "estacoes": [
+      {
+        "numeroEstacao": 1,
+        "nome": "Vila Sônia",
+        "lat": -23.5663,
+        "lng": -46.7311,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação terminal da Linha Amarela, localizada na Zona Oeste de São Paulo."
+      },
+      {
+        "numeroEstacao": 2,
+        "nome": "Profa. Elisabeth Tenreiro",
+        "lat": -23.5650,
+        "lng": -46.7200,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima à Faculdade Profa. Elisabeth Tenreiro."
+      },
+      {
+        "numeroEstacao": 3,
+        "nome": "São Paulo-Morumbi",
+        "lat": -23.5621,
+        "lng": -46.7077,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro do Morumbi."
+      },
+      {
+        "numeroEstacao": 4,
+        "nome": "Butantã",
+        "lat": -23.5623,
+        "lng": -46.6941,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima à Universidade de São Paulo (USP)."
+      },
+      {
+        "numeroEstacao": 5,
+        "nome": "Pinheiros",
+        "lat": -23.5677,
+        "lng": -46.6895,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro de Pinheiros."
+      },
+      {
+        "numeroEstacao": 6,
+        "nome": "Faria Lima",
+        "lat": -23.5746,
+        "lng": -46.6842,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada na Avenida Faria Lima."
+      },
+      {
+        "numeroEstacao": 7,
+        "nome": "Fradique Coutinho",
+        "lat": -23.5713,
+        "lng": -46.6777,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro de Pinheiros, próximo à Rua Fradique Coutinho."
+      },
+      {
+        "numeroEstacao": 8,
+        "nome": "Oscar Freire",
+        "lat": -23.5705,
+        "lng": -46.6693,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima à Rua Oscar Freire, região nobre de São Paulo."
+      },
+      {
+        "numeroEstacao": 9,
+        "nome": "Paulista - Pernambucanas",
+        "lat": -23.5629,
+        "lng": -46.6554,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada na Avenida Paulista, próximo à loja Pernambucanas."
+      },
+      {
+        "numeroEstacao": 10,
+        "nome": "Higienópolis - Mackenzie",
+        "lat": -23.5611,
+        "lng": -46.6541,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao bairro Higienópolis e à Universidade Mackenzie."
+      },
+      {
+        "numeroEstacao": 11,
+        "nome": "República",
+        "lat": -23.5440,
+        "lng": -46.6413,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada na Praça da República, região central de São Paulo."
+      },
+      {
+        "numeroEstacao": 12,
+        "nome": "Luz",
+        "lat": -23.5339,
+        "lng": -46.6285,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação terminal da Linha Amarela, localizada próxima à Estação da Luz."
+      }
+    ]
+  },
+  {
+    "nome": "Lilás",
+    "cor": "#9C27B0",
+    "estacoes": [
+      {
+        "numeroEstacao": 1,
+        "nome": "Capão Redondo",
+        "lat": -23.6844,
+        "lng": -46.7959,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação terminal da Linha Lilás, localizada na Zona Sul de São Paulo."
+      },
+      {
+        "numeroEstacao": 2,
+        "nome": "Campo Limpo",
+        "lat": -23.6471,
+        "lng": -46.7417,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Campo Limpo."
+      },
+      {
+        "numeroEstacao": 3,
+        "nome": "Vila das Belezas",
+        "lat": -23.6362,
+        "lng": -46.7311,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada na Vila das Belezas."
+      },
+      {
+        "numeroEstacao": 4,
+        "nome": "Giovanni Gronchi",
+        "lat": -23.6169,
+        "lng": -46.7170,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada próxima à Avenida Giovanni Gronchi."
+      },
+      {
+        "numeroEstacao": 5,
+        "nome": "Santo Amaro",
+        "lat": -23.6213,
+        "lng": -46.7039,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Santo Amaro."
+      },
+      {
+        "numeroEstacao": 6,
+        "nome": "Largo Treze",
+        "lat": -23.5975,
+        "lng": -46.6940,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao Largo Treze de Maio."
+      },
+      {
+        "numeroEstacao": 7,
+        "nome": "Adolfo Pinheiro",
+        "lat": -23.5928,
+        "lng": -46.6833,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada na Avenida Adolfo Pinheiro."
+      },
+      {
+        "numeroEstacao": 8,
+        "nome": "Alto da Boa Vista",
+        "lat": -23.5862,
+        "lng": -46.6769,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Alto da Boa Vista."
+      },
+      {
+        "numeroEstacao": 9,
+        "nome": "Borba Gato",
+        "lat": -23.5787,
+        "lng": -46.6697,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima à Avenida Borba Gato."
+      },
+      {
+        "numeroEstacao": 10,
+        "nome": "Brooklin",
+        "lat": -23.5730,
+        "lng": -46.6640,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro do Brooklin."
+      },
+      {
+        "numeroEstacao": 11,
+        "nome": "Campo Belo",
+        "lat": -23.5771,
+        "lng": -46.6498,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Campo Belo."
+      },
+      {
+        "numeroEstacao": 12,
+        "nome": "Eucaliptos",
+        "lat": -23.5819,
+        "lng": -46.6382,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima à Avenida das Nações Unidas."
+      },
+      {
+        "numeroEstacao": 13,
+        "nome": "Moema",
+        "lat": -23.5907,
+        "lng": -46.6536,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Moema."
+      },
+      {
+        "numeroEstacao": 14,
+        "nome": "AACD Servidor",
+        "lat": -23.6025,
+        "lng": -46.6607,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima à AACD - Associação de Assistência à Criança Deficiente."
+      },
+      {
+        "numeroEstacao": 15,
+        "nome": "Hospital São Paulo",
+        "lat": -23.6124,
+        "lng": -46.6545,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao Hospital São Paulo."
+      },
+      {
+        "numeroEstacao": 16,
+        "nome": "Santa Cruz",
+        "lat": -23.6176,
+        "lng": -46.6454,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Santa Cruz."
+      },
+      {
+        "numeroEstacao": 17,
+        "nome": "Chácara Klabin",
+        "lat": -23.6093,
+        "lng": -46.6466,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação que conecta com outras linhas na Chácara Klabin."
+      }
+    ]
+  },
+  {
+    "nome": "Diamante",
+    "cor": "#B9F2FF",
+    "estacoes": [
+      {
+        "numeroEstacao": 1,
+        "nome": "Júlio Prestes",
+        "lat": -23.5308,
+        "lng": -46.6616,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação terminal no centro de São Paulo, próxima à Sala São Paulo."
+      },
+      {
+        "numeroEstacao": 2,
+        "nome": "Palmeiras-Barra Funda",
+        "lat": -23.5270,
+        "lng": -46.6734,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação com integração ao metrô e linhas de ônibus."
+      },
+      {
+        "numeroEstacao": 3,
+        "nome": "Lapa",
+        "lat": -23.5235,
+        "lng": -46.7075,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro da Lapa."
+      },
+      {
+        "numeroEstacao": 4,
+        "nome": "Domingos de Moraes",
+        "lat": -23.5248,
+        "lng": -46.7406,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima à Avenida Domingos de Moraes."
+      },
+      {
+        "numeroEstacao": 5,
+        "nome": "Imperatriz Leopoldina",
+        "lat": -23.5352,
+        "lng": -46.7581,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação no bairro da Imperatriz Leopoldina."
+      },
+      {
+        "numeroEstacao": 6,
+        "nome": "Presidente Altino",
+        "lat": -23.5254,
+        "lng": -46.7945,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação de conexão com linhas metropolitanas."
+      },
+      {
+        "numeroEstacao": 7,
+        "nome": "Osasco",
+        "lat": -23.5325,
+        "lng": -46.7915,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação central em Osasco, importante polo urbano."
+      },
+      {
+        "numeroEstacao": 8,
+        "nome": "Comandante Sampaio",
+        "lat": -23.5078,
+        "lng": -46.7999,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Comandante Sampaio."
+      },
+      {
+        "numeroEstacao": 9,
+        "nome": "Quitaúna",
+        "lat": -23.4917,
+        "lng": -46.8072,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao bairro Quitaúna."
+      },
+      {
+        "numeroEstacao": 10,
+        "nome": "General Miguel Costa",
+        "lat": -23.4826,
+        "lng": -46.8195,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada na região de General Miguel Costa."
+      },
+      {
+        "numeroEstacao": 11,
+        "nome": "Carapicuíba",
+        "lat": -23.4968,
+        "lng": -46.8332,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação central no município de Carapicuíba."
+      },
+      {
+        "numeroEstacao": 12,
+        "nome": "Santa Terezinha",
+        "lat": -23.4910,
+        "lng": -46.8559,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Santa Terezinha."
+      },
+      {
+        "numeroEstacao": 13,
+        "nome": "Antonio João",
+        "lat": -23.4823,
+        "lng": -46.8723,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação no bairro Antônio João."
+      },
+      {
+        "numeroEstacao": 14,
+        "nome": "Barueri",
+        "lat": -23.5000,
+        "lng": -46.8762,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação central da cidade de Barueri."
+      },
+      {
+        "numeroEstacao": 15,
+        "nome": "Jardim Belval",
+        "lat": -23.5059,
+        "lng": -46.8881,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no Jardim Belval."
+      },
+      {
+        "numeroEstacao": 16,
+        "nome": "Jardim Silveira",
+        "lat": -23.5117,
+        "lng": -46.8997,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação no bairro Jardim Silveira."
+      },
+      {
+        "numeroEstacao": 17,
+        "nome": "Jandira",
+        "lat": -23.5163,
+        "lng": -46.9088,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação central na cidade de Jandira."
+      },
+      {
+        "numeroEstacao": 18,
+        "nome": "Sagrado Coração",
+        "lat": -23.5212,
+        "lng": -46.9204,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao bairro Sagrado Coração."
+      },
+      {
+        "numeroEstacao": 19,
+        "nome": "Engenheiro Cardoso",
+        "lat": -23.5260,
+        "lng": -46.9301,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Engenheiro Cardoso."
+      },
+      {
+        "numeroEstacao": 20,
+        "nome": "Itapevi",
+        "lat": -23.5305,
+        "lng": -46.9423,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação central da cidade de Itapevi."
+      },
+      {
+        "numeroEstacao": 21,
+        "nome": "Santa Rita",
+        "lat": -23.5356,
+        "lng": -46.9547,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao bairro Santa Rita."
+      },
+      {
+        "numeroEstacao": 22,
+        "nome": "Amador Bueno",
+        "lat": -23.5407,
+        "lng": -46.9669,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação terminal na cidade de Itapevi."
+      }
+    ]
+  },
+  {
+    "nome": "Esmeralda",
+    "cor": "#50C878",
+    "estacoes": [
+      {
+        "numeroEstacao": 1,
+        "nome": "Osasco",
+        "lat": -23.5325,
+        "lng": -46.7915,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação central em Osasco, importante polo urbano."
+      },
+      {
+        "numeroEstacao": 2,
+        "nome": "Presidente Altino",
+        "lat": -23.5254,
+        "lng": -46.7945,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação de conexão com linhas metropolitanas."
+      },
+      {
+        "numeroEstacao": 3,
+        "nome": "Ceasa",
+        "lat": -23.5273,
+        "lng": -46.7674,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima à Ceasa de São Paulo."
+      },
+      {
+        "numeroEstacao": 4,
+        "nome": "Vila Lobos-Jaguaré",
+        "lat": -23.5365,
+        "lng": -46.7439,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao Parque Villa-Lobos."
+      },
+      {
+        "numeroEstacao": 5,
+        "nome": "Cidade Universitária",
+        "lat": -23.561,
+        "lng": -46.726,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima à Universidade de São Paulo (USP)."
+      },
+      {
+        "numeroEstacao": 6,
+        "nome": "Pinheiros",
+        "lat": -23.5722,
+        "lng": -46.6828,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação importante no bairro de Pinheiros."
+      },
+      {
+        "numeroEstacao": 7,
+        "nome": "Hebraica-Rebouças",
+        "lat": -23.5651,
+        "lng": -46.6787,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao Clube Hebraica."
+      },
+      {
+        "numeroEstacao": 8,
+        "nome": "Cidade Jardim",
+        "lat": -23.5725,
+        "lng": -46.6699,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao Shopping Cidade Jardim."
+      },
+      {
+        "numeroEstacao": 9,
+        "nome": "Vila Olímpia",
+        "lat": -23.5942,
+        "lng": -46.6853,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação no bairro Vila Olímpia, região comercial."
+      },
+      {
+        "numeroEstacao": 10,
+        "nome": "Berrini",
+        "lat": -23.6018,
+        "lng": -46.6893,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação na região da Avenida Berrini."
+      },
+      {
+        "numeroEstacao": 11,
+        "nome": "Morumbi-Claro",
+        "lat": -23.6154,
+        "lng": -46.7059,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação na região do Morumbi."
+      },
+      {
+        "numeroEstacao": 12,
+        "nome": "Granja Julieta",
+        "lat": -23.628,
+        "lng": -46.7071,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao bairro Granja Julieta."
+      },
+      {
+        "numeroEstacao": 13,
+        "nome": "João Dias",
+        "lat": -23.6367,
+        "lng": -46.7055,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao bairro João Dias."
+      },
+      {
+        "numeroEstacao": 14,
+        "nome": "Santo Amaro",
+        "lat": -23.6397,
+        "lng": -46.7046,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação central no bairro Santo Amaro."
+      },
+      {
+        "numeroEstacao": 15,
+        "nome": "Socorro",
+        "lat": -23.6492,
+        "lng": -46.6997,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação localizada no bairro Socorro."
+      },
+      {
+        "numeroEstacao": 16,
+        "nome": "Jurubatuba-Senac",
+        "lat": -23.6627,
+        "lng": -46.6935,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao Senac Santo Amaro."
+      },
+      {
+        "numeroEstacao": 17,
+        "nome": "Autódromo",
+        "lat": -23.6578,
+        "lng": -46.651,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao Autódromo de Interlagos."
+      },
+      {
+        "numeroEstacao": 18,
+        "nome": "Primavera-Interlagos",
+        "lat": -23.6691,
+        "lng": -46.6361,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação próxima ao bairro Primavera e Interlagos."
+      },
+      {
+        "numeroEstacao": 19,
+        "nome": "Grajaú",
+        "lat": -23.7034,
+        "lng": -46.6089,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação terminal no bairro Grajaú."
+      },
+      {
+        "numeroEstacao": 20,
+        "nome": "Bruno Covas-Mendes-Vila Natal",
+        "lat": -23.7153,
+        "lng": -46.6023,
+        "horario_funcionamento": "04:40 - 00:00",
+        "descricao": "Estação terminal na região de Bruno Covas, Mendes e Vila Natal."
+      }
+    ]
+  }        
+]
+  
