@@ -1,10 +1,8 @@
 # 🚄 VivaLine - Totem Interativo CCR
 
 ## 🔗 Links
-**Demonstração do projeto disponível em vídeo: [Clique aqui para assistir](https://youtu.be/nwv4O9QCr_E)**
-
 **Para acessar o site você também pode clicar [AQUI](https://totem-vivaline.vercel.app/)**
-O carregamento pode demorar devido ao Vercel, se não carregar corretamente, o video demonstração do projeto mostra ele funcionando totalmente.
+O carregamento de alguns dados no site pode demorar devido ao Vercel.
 
 ---
 
@@ -49,7 +47,7 @@ O objetivo é tornar a experiência dentro das estações mais prática, informa
 Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório do frontend
-```git clone https://github.com/seu-usuario/totem-vivaline-frontend.git```
+```git clone https://github.com/athomasmariano/totem-vivaline```
 2. Instale todas as dependências usando: "npm install".
 3. E para rodar o projeto localmente use: "npm run dev".
    
@@ -77,5 +75,4 @@ Obrigado! 🚆💡
 ---
 
 ## 💡 **Desenvolvido pelo grupo Spectrum**
-- **Link do Github: [VivaLine](https://github.com/spectrumfiap/totem-vivaline)**
-
+   - [**Linkedin:** (https://www.linkedin.com/in/arthur-thomas-mariano-941a97234)
